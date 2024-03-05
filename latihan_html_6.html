@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran Mahasiswa Baru</title>
+</head>
+<body>
+    <form action="proses.php" method="POST" enctype="multipart/form-data">
+        <label for="nama">Nama Lengkap:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+
+        <label for="ttl">Tempat/Tanggal Lahir (DD-MM-YYYY):</label><br>
+        <input type="text" id="ttl" name="ttl"><br><br>
+
+        <label for="agama">Agama:</label><br>
+        <select id="agama" name="agama">
+            <option value="">-PILIH-</option>
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Katolik">Katolik</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Budha">Budha</option>
+            <option value="Konghucu">Konghucu</option>
+        </select><br><br>
+
+        <label for="gender">Jenis Kelamin:</label><br>
+        <input type="radio" id="laki" name="gender" value="Laki-laki">
+        <label for="laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="gender" value="Perempuan">
+        <label for="perempuan">Perempuan</label><br><br>
+
+        <label for="ijazah">No. Ijazah SMA/MA:</label><br>
+        <input type="text" id="ijazah" name="ijazah"><br><br>
+
+        <label for="foto">Foto (Ukuran File Maks. 20 KB):</label><br>
+        <input type="file" id="foto" name="foto"><br><br>
+
+        <!-- Tambahkan input dan label sesuai dengan gambar untuk Nama Ayah, Nama Ibu, Alamat Rumah, No. Telp, Nama Sekolah Asal, Alamat Sekolah Asal, Jurusan Dipilih, dan Tahu informasi ini dari -->
+
+        <input type="submit" value="DAFTAR">
+        <input type="reset" value="BATAL">
+    </form>
+</body>
+</html>

@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Form Sederhana</title>
-        <link rel="icon" type="img/png" href="gambar/icon.png" sizes="16x16"/>
-        <meta charset="viewport" content="width=device-width,initial-scale=1">
-    </head>
-    <body>
-        <form action="/action_page.php" method="get" target="_self">
-            <label for="depan">Nama Depan:</label><br>
-            <label for="text" id="depan" name="i_name" value="agnes"><br><br>
-            <label for="n_nama belakang">Nama Belakang:</label><br>
-            <input type="text" id="n_belakang" name="i_belakang" value="adelia"><br><br>
-            <input type="submit" value="Kirim">
-            <input type="reset" value="Reset">
-    
-        </form>
-        <p>jika mengeklik tombol"Kirim",data formulir akan dikirim ke halaman bernama"/action_page.php"</p>
-
-        <!--kesimpulan-->
-        <p>jika mengeklik tombol "Kirim", data formulir akan dikirim ke halaman bernama "/action_page.php" dengan metode "GET" dan akan dibuka di tab yang sama (_self)</p>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Form Sederhana</title>
+    <link rel="icon" type="img/png" href="gambar/icon.png" sizes="16x16"/>
+    <meta charset="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+    <form action="/action_page.php" method="get" target="_self">
+        <label for="depan">Nama Depan:</label><br>
+        <input type="text" id="depan" name="i_name" value="agnes"><br><br>
+        <label for="n_nama belakang">Nama Belakang:</label><br>
+        <input type="text" id="n_belakang" name="i_belakang" value="adelia"><br><br>
+        <input type="submit" value="Kirim">
+        <input type="reset" value="Reset">
+    </form>
+    <p>jika mengeklik tombol "Kirim", data formulir akan dikirim ke halaman bernama "/action_page.php" dengan metode "GET" dan akan dibuka di tab yang sama (_self)</p>
+</body>
 </html>

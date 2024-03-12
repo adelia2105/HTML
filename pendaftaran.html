@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Beranda</title>
+</head>
+<body>
+    <header>
+        <h2><b>Form Penjadwal Pertemuan</b></h2>
+    </header>
+    <section>
+        <div id="content">
+            <fieldset>
+                <legend>Informasi Pribadi</legend>
+                <form action="proses.php" method="POST" enctype="multipart/form-data">
+                    <label for="nama">Nama:</label><br>
+                    <input type="text" id="nama" name="nama" required><br><br>
+        
+                    <label for="no_telepon">No. Telepon:</label><br>
+                    <input type="text" id="no_telepon" name="no_telepon" required><br><br>
+        
+                    <label for="email">Alamat Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+        
+                    <label for="tanggal_lahir">Tanggal Lahir (mm/dd/yyyy):</label><br>
+                    <input type="date" id="tanggal_lahir" name="tanggal_lahir" min="1987-01-01" max="1993-01-01" required><br>
+                </form>
+            </fieldset>
+        </div>
+        
+        <div id="content">
+            <fieldset>
+                <legend>Permintaan Pertemuan</legend>
+                <form action="proses.php" method="POST" enctype="multipart/form-data">
+                    <label for="tujuan_pertemuan">Tujuan Pertemuan:</label><br>
+                    <input type="text" id="tujuan_pertemuan" name="tujuan_pertemuan" required><br><br>
+        
+                    <label for="tingkat_kepentingan">Tingkat Kepentingan Pertemuan:</label><br>
+                    <input type="number" id="tingkat_kepentingan" name="tingkat_kepentingan" min="0" max="10" required><br><br>
+        
+                    <label for="tanggal">Tanggal (mm/dd/yyyy):</label><br>
+                    <input type="date" id="tanggal" name="tanggal" min="<?php echo date('Y-m-d', strtotime('+1 day')); ?>" required><br><br>
+        
+                    <label for="waktu">Waktu (--:-- --):</label><br>
+                    <input type="time" id="waktu" name="waktu" min="17:00" max="21:00" required><br><br>
+
+                </form>
+            </fieldset>
+        </div>
+
+            </form>
+        </div>
+        <p><input type="submit" value="Submit"></p> 
+    </body>
+</html>
+        </article>
+        <div class="kotak-hijau"></div>
+        <div class="kotak-merah"></div>
+    </section>
+      
+</body>
+</html>

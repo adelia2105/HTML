@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #D3BBDD;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: #000000;
+}
+nav{
+    float:left;
+    width:30%;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px; /* Menambah margin bottom untuk mendorong artikel ke atas */
+}
+nav img {
+    width: 100%; /* Mengatur lebar gambar agar mengikuti lebar nav */
+    height: auto; /* Mengatur tinggi gambar agar mengikuti rasio aspek */
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+article{
+    float:left;
+    padding: 20px;
+    width:70%;
+    background-color: white;
+    height: 465px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: inherit;
+}
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+footer{
+    background-color:#D3BBDD;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+@media (max-width:600px){
+    nav,article{
+        width: 100px;
+        height: auto;
+    }
+}

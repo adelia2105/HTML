@@ -1,0 +1,70 @@
+
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F7F7F7;
+            color: #333;
+        }
+        header {
+            background-color: #D3BBDD;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+        }
+        nav {
+            float: left;
+            width: 25%;
+            background: #FFFFFF;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav img {
+            width: 80%; /* Menyesuaikan ukuran gambar */
+            height: auto;
+            object-fit: cover;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        article {
+            float: left;
+            padding: 20px; /* Menambahkan padding untuk memperbaiki tata letak */
+            width: 75%;
+            background-color: #FFFFFF;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        }
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        footer {
+            background-color: #D3BBDD;
+            padding: 20px; /* Menambahkan padding untuk memperbaiki tata letak */
+            text-align: center;
+            color: #333;
+        }
+        /* Desain kotak */
+        .kotak-hijau {
+            width: 100px;
+            height: 100px;
+            background-color: #77DD77;
+            margin-top: 20px;
+            margin-right: 20px;
+            float: left;
+        }
+        .kotak-merah {
+            width: 100px;
+            height: 100px;
+            background-color: #FF6961;
+            margin-top: 20px;
+            float: left;
+        }

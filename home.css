@@ -1,37 +1,50 @@
-/* Style CSS untuk tata letak dan desain */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color:#D3BBDD; /* Warna latar belakang */
-            text-align: center;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: grey; /* Warna latar belakang kontainer */
-            border-radius: 10px;
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.1); /* Efek bayangan */
-        }
-        .container h1 {
-            margin-top: 0;
-            color: #000000; /* Warna teks */
-        }
-        .container a {
-            margin-right: 20px; /* Menambahkan margin kanan untuk tautan */
-            text-decoration: none;
-            color: #666666; /* Warna teks tautan */
-            transition: color 0.3s; /* Efek transisi */
-        }
-        .container a:hover {
-            color: #000000; /* Warna teks tautan saat dihover */
-        }
-        nav {
-            padding: 20px 0;
-            background-color:#D3BBDD; /* Warna latar belakang */
-        }
-        nav img {
-            max-width: 60%; /* Lebar gambar maksimum */
-            height: auto;
-        }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D3BBDD; /* Warna latar belakang */
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: black; /* Warna latar belakang kontainer */
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+.container a {
+    margin-right: 80px; /* Menambahkan margin kanan untuk tautan */
+    text-decoration: none;
+    color: white; /* Warna teks tautan */
+    transition: color 0.3s; /* Efek transisi */
+}
+
+.container a:hover {
+    color: #000000; /* Warna teks tautan saat dihover */
+}
+
+nav {
+    padding: 10px 0;
+    background-color: #D3BBDD; /* Warna latar belakang */
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav img {
+    max-width: 30%; /* Lebar gambar maksimum */
+    height: auto;
+}
+
+.kartun {
+    width: 100%; /* Lebar gambar kartun */
+    max-width: 200%; /* Lebar maksimum gambar kartun */
+    height: auto;
+    margin-bottom: 25px; /* Menambahkan margin bawah untuk gambar */
+    float: left; /* Mengatur gambar menjadi rata kanan */
+    position: absolute; /* Mengatur posisi absolut */
+    bottom: 0; /* Menempatkan gambar di bagian bawah */
+    left: 0; /* Menempatkan gambar di bagian kiri */
+}

@@ -6,7 +6,7 @@ body{
 }
 header{
     background-color: #D3BBDD;
-    padding: 30px;
+    padding: 10px;
     text-align: center;
     font-size: 35px;
     color: #000000;
@@ -35,6 +35,14 @@ article{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     font-style: inherit;
+}
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 section::after{
     content: "";

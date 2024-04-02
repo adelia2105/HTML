@@ -6,7 +6,7 @@ body{
 }
 header{
     background-color: #D3BBDD;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     font-size: 35px;
     color: #000000;
@@ -28,13 +28,13 @@ nav ul{
 }
 article{
     float:left;
-    padding: 20px;
+    padding:0px;
     width:100%;
     background-color: white;
     height: 465px;
     font-size: 20px;
     text-align: justify;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman';
     font-style: initial;
 }
 section::after{
@@ -43,6 +43,14 @@ section::after{
     clear: both;
 
 }
+.profil-img {
+    width: 215px; /* Atur lebar gambar sesuai kebutuhan */
+    height: auto; /* Biarkan tinggi otomatis sesuai rasio aspek */
+    float: right; /* Posisikan gambar di sebelah kiri teks */
+    margin-right: 0px; /* Tambahkan margin kanan agar tulisan tidak berdekatan dengan gambar */
+    margin-bottom: 0px; /* Tambahkan margin bawah agar tulisan tidak berdekatan dengan gambar */
+}
+
 footer{
     background-color:#D3BBDD;
     padding: 10px;

@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #8c52ff, #5ce1e6);;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.5) url("path/to/your/image.jpg") no-repeat center center; /* Background transparan dengan gambar */
+    background-size: cover; /* Mengatur gambar agar menutupi seluruh area container */
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    text-align: left; /* Pusatkan teks di dalam container */
+}
+
+.container h1 {
+    display: inline-block; /* Atur agar elemen h1 menjadi inline block */
+    vertical-align: middle; /* Posisikan secara vertikal di tengah container */
+    margin-right: 200px; /* Berikan margin agar terpisah dari tautan navigasi */
+    margin-top: 20px; /* Tambahkan margin atas untuk memberikan jarak dengan tautan navigasi */
+}
+
+.container a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    text-align: left;
+    margin-right: 10px; /* Berikan margin antar tautan navigasi */
+}
+
+.container a:hover {
+    color: #000000;
+}
+
+nav {
+    padding: 10px 0;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    background-color: linear-gradient(to bottom right, #8c52ff, #5ce1e6);
+}
+
+nav img {
+    max-width: 30%;
+    height: auto;
+}
+
+.kartun {
+    width: 100%;
+    max-width: 200%;
+    height: auto;
+    margin-bottom: 25px;
+    float: right;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

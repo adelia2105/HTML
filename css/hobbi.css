@@ -1,0 +1,69 @@
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to bottom right, #8c52ff, #5ce1e6);;
+        background-size: cover;
+        background-attachment: fixed;
+        color: #333;
+        text-align: center;
+    }
+    header {
+        background-color: rgba(0, 0, 0, 0.5); /* Menggunakan rgba untuk memberikan transparansi pada background */
+        padding: 1px;
+        text-align: center;
+        font-size: 35px;
+        z-index: 1;
+        color: white;
+    }
+
+nav{
+    float:left;
+    width:30%;
+    padding: 20px;
+    margin-bottom: 20px; /* Menambah margin bottom untuk mendorong artikel ke atas */
+}
+nav img {
+    width: 316px; /* Mengatur lebar gambar agar mengikuti lebar nav */
+    height: auto; /* Mengatur tinggi gambar agar mengikuti rasio aspek */
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+article{
+    float:left;
+    padding: 20px;
+    width:70%;
+    height: 465px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style: inherit;
+}
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+p{
+  
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+}
+h2{
+    text-align: center;
+}
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+@media (max-width:600px){
+    nav,article{
+        width: 100px;
+        height: auto;
+    }
+}

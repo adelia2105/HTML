@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #8c52ff, #5ce1e6);;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Menggunakan rgba untuk memberikan transparansi pada background */
+    padding: 1px;
+    text-align: center;
+    font-size: 35px;
+    z-index: 1;
+    color: white;
+}
+nav {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+nav img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10%; /* Mengatur border-radius menjadi setengah dari lebar atau tinggi gambar */
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+article {
+    float: right;
+    padding: 20px;
+    width: 75%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: black;
+    border-radius: 10px;
+    z-index: 1;
+}
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
